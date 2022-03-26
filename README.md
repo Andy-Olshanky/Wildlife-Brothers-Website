@@ -1,6 +1,6 @@
 # AlgoRaven/startup
 
-<img src="./docs/assets/algoraven.png" width="200" style="margin-top: 16px; margin-bottom: 16px;" />
+<img src="./docs/assets/algoraven.png" width="300" style="margin-top: 16px; margin-bottom: 16px;" />
 
 Opinionated TypeScript monorepo for Firebase projects, brought to you by the <a href="https://algoraven.com">AlgoRaven</a> team.
 
@@ -16,7 +16,7 @@ Opinionated TypeScript monorepo for Firebase projects, brought to you by the <a 
 1. Clone this repo locally.
 2. [Create a Firebase project](https://console.firebase.google.com/) with your choice of name.
 
-   <img src="./docs/assets/create-project.png" width="500" style="margin-top: 16px; margin-bottom: 16px;" />
+   <img src="./docs/assets/create-project.png" width="300" style="margin-top: 16px; margin-bottom: 16px;" />
 
 3. Enable the Firestore Database by clicking `Create Database`. Choose the mode and region of your choice, but `Test` mode will help you get set up faster.
 
