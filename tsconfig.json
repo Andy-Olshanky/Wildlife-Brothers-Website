@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "./build",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": true,
+    "strict": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "sourceMap": true,
+    "noEmitOnError": false,
+    "noEmit": false,
+    "rootDir": ".",
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "idl/*.ts",
+    "api/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "emulation-data"
+  ]
+}

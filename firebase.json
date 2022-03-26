@@ -1,0 +1,48 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "functions": {
+    "source": ".",
+    "predeploy": [
+      "cp package.json build/api/package.json",
+      "yarn install",
+      "yarn build"
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "runtime": "nodejs16"
+  },
+  "emulators": {
+    "auth": {
+      "port": 5777
+    },
+    "functions": {
+      "port": 5000
+    },
+    "firestore": {
+      "port": 5420
+    },
+    "hosting": {
+      "enabled": false
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4269
+    }
+  }
+}
