@@ -1,4 +1,4 @@
-# Initial file project template made using the AlgoRaven startup code created by Anthony Krivonos (https://github.com/anthonykrivonos)
+# Initial file project template made using the AlgoRaven startup code created by Anthony Krivonos (https://github.com/AlgoRaven/startup)
 
 # AlgoRaven/startup
 
